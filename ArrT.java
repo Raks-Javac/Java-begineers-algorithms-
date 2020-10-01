@@ -14,8 +14,8 @@ public class ArrT {
 	  int Arr_Sum[] = {5,6,7,8,9,10};
 	   int sum = 0;
 	   
-	   for(int counter=0;counter<StrArr.length;counter++)  {
-		   sum += Arr_Sum[counter];
+	   for(int counter: Arr_Sum)  {
+		   sum += counter;
 	     }
             System.out.println("The sum of the numbers =  " +sum);
 
